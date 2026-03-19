@@ -254,8 +254,8 @@ export default function NosotrosPage() {
               >
                 {/* Photo */}
                 <div
-                  className="w-28 h-28 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-105 transition-brand ring-4"
-                  style={{ ringColor: `${member.color}30` }}
+                  className="w-28 h-28 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-105 transition-brand border-4"
+                  style={{ borderColor: `${member.color}30` }}
                 >
                   <Image
                     src={member.photo}
