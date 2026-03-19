@@ -307,10 +307,14 @@ export default function NosotrosPage() {
           {/* President */}
           <div className="max-w-md mx-auto mb-12">
             <div className="bg-white rounded-3xl p-8 text-center shadow-lg border border-salmon/10">
-              <div className="w-20 h-20 rounded-full mx-auto mb-4 bg-salmon/10 flex items-center justify-center">
-                <div className="w-16 h-16 rounded-full bg-salmon/20 flex items-center justify-center">
-                  <span className="text-2xl font-extrabold text-salmon">JR</span>
-                </div>
+              <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden border-4 border-salmon/20">
+                <Image
+                  src="/images/equipo/jaime-rivero.jpg"
+                  alt="Jaime Rivero Roel"
+                  width={96}
+                  height={96}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-bold text-heading mb-1">
                 Jaime Rivero Roel
