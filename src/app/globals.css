@@ -110,6 +110,124 @@ body {
   animation: scaleIn 0.5s ease-out forwards;
 }
 
+/* Hero circle pulse */
+@keyframes heroPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+.animate-hero-pulse {
+  animation: heroPulse 4s ease-in-out infinite;
+}
+
+/* Bounce in for satellite circles */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  70% {
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-bounce-in {
+  opacity: 0;
+  animation: bounceIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.animate-bounce-in-delay-1 {
+  opacity: 0;
+  animation: bounceIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s forwards;
+}
+
+.animate-bounce-in-delay-2 {
+  opacity: 0;
+  animation: bounceIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.5s forwards;
+}
+
+/* Slow drift for background blobs */
+@keyframes driftRight {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(30px, -15px); }
+}
+
+@keyframes driftLeft {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-25px, 20px); }
+}
+
+@keyframes driftUp {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(15px, -30px); }
+}
+
+.animate-drift-right {
+  animation: driftRight 12s ease-in-out infinite;
+}
+
+.animate-drift-left {
+  animation: driftLeft 14s ease-in-out infinite;
+}
+
+.animate-drift-up {
+  animation: driftUp 10s ease-in-out infinite;
+}
+
+/* Gentle spin for star */
+@keyframes floatSpin {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-8px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(-5deg);
+  }
+}
+
+.animate-float-spin {
+  animation: floatSpin 6s ease-in-out infinite;
+}
+
+/* Orbit for small decorative dots */
+@keyframes orbit {
+  0% { transform: rotate(0deg) translateX(8px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(8px) rotate(-360deg); }
+}
+
+.animate-orbit {
+  animation: orbit 20s linear infinite;
+}
+
+/* Fade in scale for main circle */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in-scale {
+  animation: fadeInScale 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
 /* Stagger children animations */
 .stagger-children > * {
   opacity: 0;

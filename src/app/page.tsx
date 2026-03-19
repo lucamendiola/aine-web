@@ -35,15 +35,15 @@ export default function HomePage() {
     <>
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-18">
-        {/* Background organic shapes */}
+        {/* Background organic shapes - animated */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <div className="absolute -top-20 -right-20 w-96 h-96 bg-salmon/10 rounded-full blur-3xl" />
-          <div className="absolute top-1/3 -left-32 w-80 h-80 bg-teal/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-orange/10 rounded-full blur-3xl" />
-          {/* Decorative circles */}
-          <div className="absolute top-32 right-12 w-20 h-20 bg-cream rounded-full opacity-60 hidden lg:block" />
-          <div className="absolute bottom-24 left-16 w-12 h-12 bg-salmon/20 rounded-full hidden lg:block" />
-          <div className="absolute top-48 left-1/3 w-6 h-6 bg-teal/30 rounded-full hidden lg:block" />
+          <div className="absolute -top-20 -right-20 w-96 h-96 bg-salmon/10 rounded-full blur-3xl animate-drift-right" />
+          <div className="absolute top-1/3 -left-32 w-80 h-80 bg-teal/10 rounded-full blur-3xl animate-drift-left" />
+          <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-orange/10 rounded-full blur-3xl animate-drift-up" />
+          {/* Decorative circles - animated */}
+          <div className="absolute top-32 right-12 w-20 h-20 bg-cream rounded-full opacity-60 hidden lg:block animate-drift-left" />
+          <div className="absolute bottom-24 left-16 w-12 h-12 bg-salmon/20 rounded-full hidden lg:block animate-orbit" />
+          <div className="absolute top-48 left-1/3 w-6 h-6 bg-teal/30 rounded-full hidden lg:block animate-drift-up" />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -112,20 +112,20 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right: Visual composition */}
+            {/* Right: Visual composition - animated */}
             <div className="relative hidden lg:block">
               <div className="relative w-full aspect-square max-w-lg mx-auto">
-                {/* Large coral circle */}
-                <div className="absolute inset-4 bg-salmon/90 rounded-full" />
+                {/* Large coral circle - pulse + scale in */}
+                <div className="absolute inset-4 bg-salmon/90 rounded-full animate-fade-in-scale animate-hero-pulse" />
 
-                {/* Floating star icon */}
-                <div className="absolute -top-4 -left-4 animate-float">
+                {/* Floating star icon - float + subtle rotation */}
+                <div className="absolute -top-4 -left-4 animate-float-spin">
                   <AineIcon className="w-24 h-24" color="#ff856c" />
                 </div>
 
                 {/* Content inside circle */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-white p-12">
+                  <div className="text-center text-white p-12 animate-fade-in-up" style={{ animationDelay: "0.4s", opacity: 0 }}>
                     <p className="text-6xl font-extrabold mb-2">500+</p>
                     <p className="text-lg font-medium opacity-90">
                       familias acompanadas
@@ -133,14 +133,14 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                {/* Small decorative circles */}
-                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-teal/80 rounded-full flex items-center justify-center">
+                {/* Satellite circles - staggered bounce in */}
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-teal/80 rounded-full flex items-center justify-center animate-bounce-in-delay-1 hover:scale-110 transition-brand">
                   <div className="text-center text-white">
                     <p className="text-2xl font-bold">15</p>
                     <p className="text-xs opacity-80">servicios</p>
                   </div>
                 </div>
-                <div className="absolute top-8 -right-8 w-20 h-20 bg-orange/80 rounded-full flex items-center justify-center">
+                <div className="absolute top-8 -right-8 w-20 h-20 bg-orange/80 rounded-full flex items-center justify-center animate-bounce-in-delay-2 hover:scale-110 transition-brand">
                   <div className="text-center text-white">
                     <p className="text-lg font-bold">9</p>
                     <p className="text-[10px] opacity-80">condiciones</p>
