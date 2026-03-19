@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { AineIcon } from "@/components/AineLogo";
 
 export const metadata: Metadata = {
@@ -16,40 +17,46 @@ export const metadata: Metadata = {
 
 const team = [
   {
-    name: "Dra. Maria José Delgado",
+    name: "Dra. María José Delgado",
     role: "Pediatra",
     specialty: "Alta especialidad en Síndrome de Down",
     color: "#ff856c",
+    photo: "/images/equipo/maria-jose-delgado.jpg",
   },
   {
     name: "Dr. Juan Francisco Lozano",
     role: "Pediatra del desarrollo",
     specialty: null,
     color: "#4a9e8e",
+    photo: "/images/equipo/juan-francisco-lozano.jpg",
   },
   {
     name: "Karina Picón",
     role: "Lic. en Enfermería",
     specialty: "Encargada del centro",
     color: "#58b1f2",
+    photo: "/images/equipo/karina-picon.jpg",
   },
   {
     name: "Samira Velázquez",
     role: "Neuropsicóloga",
     specialty: null,
     color: "#fba649",
+    photo: "/images/equipo/samira-velazquez.jpg",
   },
   {
     name: "Alejandro Arnaud",
     role: "Psicólogo clínico",
     specialty: null,
     color: "#f3bb65",
+    photo: "/images/equipo/alejandro-arnaud.jpg",
   },
   {
     name: "Edgardo Cantú",
     role: "Colaborador AINE",
     specialty: null,
     color: "#f56c5a",
+    photo: "/images/equipo/edgardo-cantu.jpg",
   },
 ];
 
@@ -245,27 +252,18 @@ export default function NosotrosPage() {
                 key={member.name}
                 className="group bg-cream-light rounded-3xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-brand border border-salmon/5"
               >
-                {/* Photo placeholder */}
+                {/* Photo */}
                 <div
-                  className="w-28 h-28 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-105 transition-brand"
-                  style={{ backgroundColor: `${member.color}20` }}
+                  className="w-28 h-28 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-105 transition-brand ring-4"
+                  style={{ ringColor: `${member.color}30` }}
                 >
-                  <div
-                    className="w-24 h-24 rounded-full flex items-center justify-center"
-                    style={{ backgroundColor: `${member.color}30` }}
-                  >
-                    <span
-                      className="text-3xl font-extrabold"
-                      style={{ color: member.color }}
-                    >
-                      {member.name
-                        .replace(/^(Dra?\.\s|Lic\.\s)/, "")
-                        .split(" ")
-                        .map((n) => n[0])
-                        .slice(0, 2)
-                        .join("")}
-                    </span>
-                  </div>
+                  <Image
+                    src={member.photo}
+                    alt={member.name}
+                    width={112}
+                    height={112}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 {/* Info */}
