@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aviso de Privacidad | AINE",
     description:
-      "Aviso de privacidad de AINE A.C. conforme a la Ley Federal de Proteccion de Datos Personales.",
+      "Aviso de privacidad de AINE A.C. conforme a la Ley Federal de Protección de Datos Personales.",
     url: "https://aine.mx/privacidad",
   },
 };
@@ -30,7 +30,7 @@ export default function PrivacidadPage() {
             Aviso de Privacidad
           </h1>
           <p className="mt-4 text-body-light">
-            Ultima actualizacion: marzo 2026
+            Última actualizacion: marzo 2026
           </p>
         </div>
       </section>
@@ -49,8 +49,8 @@ export default function PrivacidadPage() {
                 &ldquo;AINE&rdquo;), con domicilio en Amatista 107, Col.
                 Pedregal del Valle, C.P. 66280, Monterrey, Nuevo Leon, Mexico,
                 es la responsable del tratamiento de tus datos personales
-                conforme a la Ley Federal de Proteccion de Datos Personales en
-                Posesion de los Particulares (LFPDPPP).
+                conforme a la Ley Federal de Protección de Datos Personales en
+                Posesión de los Particulares (LFPDPPP).
               </p>
             </div>
 
@@ -70,8 +70,8 @@ export default function PrivacidadPage() {
                     <strong className="text-heading">
                       Datos de identificacion:
                     </strong>{" "}
-                    nombre completo, correo electronico, numero telefonico,
-                    direccion, fecha de nacimiento.
+                    nombre completo, correo electrónico, número telefonico,
+                    dirección, fecha de nacimiento.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -81,8 +81,8 @@ export default function PrivacidadPage() {
                       Datos de menores de edad:
                     </strong>{" "}
                     nombre, edad, fecha de nacimiento, grado escolar e
-                    informacion del tutor legal. Estos datos se recopilan
-                    unicamente con el consentimiento expreso del padre, madre o
+                    información del tutor legal. Estos datos se recopilan
+                    únicamente con el consentimiento expreso del padre, madre o
                     tutor legal.
                   </span>
                 </li>
@@ -92,10 +92,10 @@ export default function PrivacidadPage() {
                     <strong className="text-heading">
                       Datos sensibles de salud:
                     </strong>{" "}
-                    condicion de neurodivergencia, historial clinico, resultados
-                    de evaluaciones neuropsicologicas, diagnosticos previos y
+                    condición de neurodivergencia, historial clínico, resultados
+                    de evaluaciónes neuropsicologicas, diagnósticos previos y
                     tratamientos recibidos. Estos datos se manejan con las
-                    medidas de seguridad mas estrictas y solo se recopilan con
+                    medidas de seguridad más estrictas y solo se recopilan con
                     consentimiento expreso.
                   </span>
                 </li>
@@ -105,8 +105,8 @@ export default function PrivacidadPage() {
                     <strong className="text-heading">
                       Datos de navegacion:
                     </strong>{" "}
-                    direccion IP, tipo de navegador, paginas visitadas y cookies
-                    tecnicas necesarias para el funcionamiento del sitio.
+                    dirección IP, tipo de navegador, páginas visitadas y cookies
+                    técnicas necesarias para el funcionamiento del sitio.
                   </span>
                 </li>
               </ul>
@@ -125,33 +125,33 @@ export default function PrivacidadPage() {
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-teal rounded-full mt-2 shrink-0" />
                   <span className="text-body">
-                    Agendar y gestionar citas y valoraciones.
+                    Agendar y gestionar citas y valoraciónes.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-teal rounded-full mt-2 shrink-0" />
                   <span className="text-body">
-                    Prestacion de servicios de diagnostico, terapia y
-                    acompanamiento.
+                    Prestacion de servicios de diagnóstico, terapia y
+                    acompañamiento.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-teal rounded-full mt-2 shrink-0" />
                   <span className="text-body">
-                    Inscripcion y seguimiento en programas de atencion.
+                    Inscripcion y seguimiento en programás de atención.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-teal rounded-full mt-2 shrink-0" />
                   <span className="text-body">
-                    Comunicacion con las familias sobre avances, citas y
+                    Comúnicacion con las familias sobre avances, citas y
                     novedades relevantes.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-teal rounded-full mt-2 shrink-0" />
                   <span className="text-body">
-                    Generacion de estadisticas internas anonimizadas para
+                    Generacion de estadísticas internas anonimizadas para
                     mejorar nuestros servicios.
                   </span>
                 </li>
@@ -161,13 +161,13 @@ export default function PrivacidadPage() {
             {/* No vende datos */}
             <div className="bg-cream-light rounded-2xl p-6 border border-salmon/10">
               <h2 className="text-2xl font-extrabold text-heading mb-4">
-                4. Proteccion de tus datos
+                4. Protección de tus datos
               </h2>
               <p className="text-body leading-relaxed">
                 <strong className="text-salmon">
                   AINE NO vende, renta ni comercializa datos personales
                 </strong>{" "}
-                bajo ninguna circunstancia. Tus datos seran tratados
+                bajo ninguna circunstancia. Tus datos serán tratados
                 exclusivamente para los fines descritos en este aviso y no seran
                 compartidos con terceros, salvo que sea requerido por autoridad
                 competente conforme a la legislacion aplicable.
@@ -191,22 +191,22 @@ export default function PrivacidadPage() {
                 </div>
                 <div className="bg-cream-light rounded-xl p-4">
                   <p className="font-bold text-heading text-sm">
-                    Rectificacion
+                    Rectificación
                   </p>
                   <p className="text-body text-sm mt-1">
                     Corregir datos inexactos o incompletos.
                   </p>
                 </div>
                 <div className="bg-cream-light rounded-xl p-4">
-                  <p className="font-bold text-heading text-sm">Cancelacion</p>
+                  <p className="font-bold text-heading text-sm">Cancelación</p>
                   <p className="text-body text-sm mt-1">
                     Solicitar la eliminacion de tus datos.
                   </p>
                 </div>
                 <div className="bg-cream-light rounded-xl p-4">
-                  <p className="font-bold text-heading text-sm">Oposicion</p>
+                  <p className="font-bold text-heading text-sm">Oposición</p>
                   <p className="text-body text-sm mt-1">
-                    Oponerte al tratamiento de tus datos para fines especificos.
+                    Oponerte al tratamiento de tus datos para fines específicos.
                   </p>
                 </div>
               </div>
@@ -218,9 +218,9 @@ export default function PrivacidadPage() {
                 >
                   hola@aine.mx
                 </a>{" "}
-                con tu solicitud. AINE respondera en un plazo maximo de{" "}
+                con tu solicitud. AINE respondera en un plazo máximo de{" "}
                 <strong className="text-heading">20 dias habiles</strong> a
-                partir de la recepcion de tu solicitud.
+                partir de la recepción de tu solicitud.
               </p>
             </div>
 
@@ -230,12 +230,12 @@ export default function PrivacidadPage() {
                 6. Medidas de seguridad
               </h2>
               <p className="text-body leading-relaxed">
-                AINE implementa medidas de seguridad administrativas, tecnicas y
-                fisicas para proteger tus datos personales contra dano, perdida,
-                alteracion, destruccion o uso no autorizado. Estas medidas
+                AINE implementa medidas de seguridad administrativas, técnicas y
+                físicas para proteger tus datos personales contra dano, pérdida,
+                alteración, destrucción o uso no autorizado. Estas medidas
                 incluyen, entre otras: firewalls, cifrado SSL en nuestro sitio
                 web, controles de acceso restringido y protocolos internos de
-                manejo de informacion confidencial.
+                manejo de información confidencial.
               </p>
             </div>
 
@@ -245,8 +245,8 @@ export default function PrivacidadPage() {
                 7. Uso de cookies
               </h2>
               <p className="text-body leading-relaxed">
-                Nuestro sitio web utiliza cookies tecnicas necesarias para su
-                correcto funcionamiento. Estas cookies no recopilan informacion
+                Nuestro sitio web utiliza cookies técnicas necesarias para su
+                correcto funcionamiento. Estas cookies no recopilan información
                 personal identificable y se eliminan al cerrar el navegador.
               </p>
             </div>
@@ -259,7 +259,7 @@ export default function PrivacidadPage() {
               <p className="text-body leading-relaxed">
                 AINE se reserva el derecho de modificar este aviso de privacidad
                 en cualquier momento. Cualquier cambio sera publicado en esta
-                misma pagina con la fecha de actualizacion correspondiente.
+                misma página con la fecha de actualizacion correspondiente.
               </p>
             </div>
 
@@ -283,11 +283,11 @@ export default function PrivacidadPage() {
                   </a>
                 </p>
                 <p className="text-body">
-                  <strong className="text-heading">Direccion:</strong> Amatista
+                  <strong className="text-heading">Dirección:</strong> Amatista
                   107, Col. Pedregal del Valle, C.P. 66280, Monterrey, NL
                 </p>
                 <p className="text-body">
-                  <strong className="text-heading">Telefono:</strong>{" "}
+                  <strong className="text-heading">Teléfono:</strong>{" "}
                   <a
                     href="tel:+528117841969"
                     className="text-salmon font-semibold hover:underline"

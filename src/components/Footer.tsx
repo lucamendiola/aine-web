@@ -5,7 +5,7 @@ const footerLinks = {
   condiciones: [
     { href: "/condiciones/tea", label: "Autismo (TEA)" },
     { href: "/condiciones/tdah", label: "TDAH" },
-    { href: "/condiciones/sindrome-de-down", label: "Sindrome de Down" },
+    { href: "/condiciones/síndrome-de-down", label: "Síndrome de Down" },
     { href: "/condiciones/altas-capacidades", label: "Altas Capacidades" },
     { href: "/condiciones", label: "Ver todas" },
   ],
@@ -17,7 +17,7 @@ const footerLinks = {
     { href: "/quiero-participar", label: "Contacto" },
   ],
   legal: [
-    { href: "/privacidad", label: "Politica de Privacidad" },
+    { href: "/privacidad", label: "Política de Privacidad" },
   ],
 };
 
@@ -58,10 +58,10 @@ export function Footer() {
       <div className="bg-salmon">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-            Cada aportacion transforma una vida
+            Cada aportación transforma una vida
           </h2>
           <p className="text-white/90 mb-6 max-w-xl mx-auto">
-            Tu donativo ayuda a que mas familias accedan a diagnostico y terapias especializadas.
+            Tu donativo ayuda a que más familias accedan a diagnóstico y terapias especializadas.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
@@ -87,7 +87,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <AineLogo className="h-10 w-auto mb-4" variant="white" />
             <p className="text-white/60 text-sm leading-relaxed mb-6">
-              Asociacion civil que diagnostica y apoya a ninos y jovenes con neurodivergencias mediante una red integral y transdisciplinaria.
+              Asociación civil que diagnostica y apoya a niños y jóvenes con neurodivergencias mediante una red integral y transdisciplinaria.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -124,10 +124,10 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Navegacion */}
+          {/* Navegación */}
           <div>
             <h3 className="font-bold text-sm uppercase tracking-wider text-white/40 mb-4">
-              Navegacion
+              Navegación
             </h3>
             <ul className="space-y-3">
               {footerLinks.navegacion.map((link) => (

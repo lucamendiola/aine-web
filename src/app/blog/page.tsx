@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Muy pronto compartiremos recursos y articulos sobre neurodivergencia, terapias y desarrollo infantil. Suscribete para no perdertelo.",
+    "Muy pronto compartiremos recursos y artículos sobre neurodivergencia, terapias y desarrollo infantil. Suscríbete para no perdértelo.",
   openGraph: {
     title: "Blog | AINE",
     description:
-      "Recursos y articulos sobre neurodivergencia, terapias y desarrollo infantil.",
+      "Recursos y artículos sobre neurodivergencia, terapias y desarrollo infantil.",
     url: "https://aine.mx/blog",
   },
 };
@@ -28,18 +28,18 @@ export default function BlogPage() {
           <span className="inline-flex items-center gap-2 px-4 py-2 bg-salmon/10 rounded-full mb-6">
             <span className="w-2 h-2 bg-salmon rounded-full animate-pulse" />
             <span className="text-sm font-medium text-salmon">
-              Proximamente
+              Próximamente
             </span>
           </span>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-heading leading-tight mb-6">
-            Nuestro <span className="text-salmon">blog</span> esta en camino
+            Nuestro <span className="text-salmon">blog</span> está en camino
           </h1>
 
           <p className="text-lg sm:text-xl text-body max-w-2xl mx-auto leading-relaxed mb-12">
-            Muy pronto compartiremos recursos y articulos sobre
+            Muy pronto compartiremos recursos y artículos sobre
             neurodivergencia, terapias, desarrollo infantil y herramientas para
-            familias. Suscribete para ser de los primeros en leerlo.
+            familias. Suscríbete para ser de los primeros en leerlo.
           </p>
 
           {/* Newsletter Form */}
@@ -49,7 +49,7 @@ export default function BlogPage() {
                 type="email"
                 name="email"
                 required
-                placeholder="Tu correo electronico"
+                placeholder="Tu correo electrónico"
                 className="flex-1 px-5 py-4 bg-white border border-gray/10 rounded-full text-heading placeholder:text-body-light focus:outline-none focus:ring-2 focus:ring-salmon/30 focus:border-salmon transition-brand shadow-sm"
               />
               <button
@@ -75,7 +75,7 @@ export default function BlogPage() {
 
           {/* Social CTA */}
           <p className="text-body mb-6">
-            Siguenos en redes sociales para contenido sobre neurodivergencia
+            Síguenos en redes sociales para contenido sobre neurodivergencia
           </p>
 
           <div className="flex justify-center gap-4">

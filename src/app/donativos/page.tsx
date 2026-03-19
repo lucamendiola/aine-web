@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Donativos",
   description:
-    "Tu donativo transforma la vida de ninos y jovenes con neurodivergencias. AINE es una asociacion civil sin fines de lucro en Monterrey.",
+    "Tu donativo transforma la vida de niños y jóvenes con neurodivergencias. AINE es una asociación civil sin fines de lucro en Monterrey.",
   openGraph: {
     title: "Donativos | AINE",
     description:
-      "Apoya a familias que no pueden costear atencion especializada para sus hijos con neurodivergencias.",
+      "Apoya a familias que no pueden costear atención especializada para sus hijos con neurodivergencias.",
     url: "https://aine.mx/donativos",
   },
 };
@@ -16,12 +16,12 @@ export const metadata: Metadata = {
 const impactLevels = [
   {
     amount: "$500 MXN",
-    description: "1 sesion de terapia especializada",
+    description: "1 sesión de terapia especializada",
     color: "bg-blue",
   },
   {
     amount: "$2,000 MXN",
-    description: "Evaluacion neuropsicologica completa",
+    description: "Evaluación neuropsicologica completa",
     color: "bg-teal",
   },
   {
@@ -31,7 +31,7 @@ const impactLevels = [
   },
   {
     amount: "$15,000 MXN",
-    description: "Proceso diagnostico completo para una familia",
+    description: "Proceso diagnóstico completo para una familia",
     color: "bg-salmon",
   },
 ];
@@ -50,7 +50,7 @@ export default function DonativosPage() {
           <span className="inline-flex items-center gap-2 px-4 py-2 bg-teal/10 rounded-full mb-6">
             <span className="w-2 h-2 bg-teal rounded-full" />
             <span className="text-sm font-medium text-teal">
-              Asociacion Civil sin fines de lucro
+              Asociación Civil sin fines de lucro
             </span>
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-heading leading-tight">
@@ -58,7 +58,7 @@ export default function DonativosPage() {
             <span className="text-salmon">transforma vidas</span>
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-body max-w-2xl mx-auto leading-relaxed">
-            Muchas familias no pueden costear el diagnostico ni la atencion
+            Muchas familias no pueden costear el diagnóstico ni la atención
             especializada que sus hijos necesitan. Con tu apoyo, podemos
             cambiar esa realidad.
           </p>
@@ -72,23 +72,23 @@ export default function DonativosPage() {
             {/* Left: Text */}
             <div>
               <span className="text-sm font-semibold text-teal uppercase tracking-widest">
-                Por que donar
+                Por qué donar
               </span>
               <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-heading leading-tight">
-                Cada nino merece acceso a{" "}
-                <span className="text-salmon">atencion de calidad</span>
+                Cada niño merece acceso a{" "}
+                <span className="text-salmon">atención de calidad</span>
               </h2>
               <p className="mt-6 text-body text-lg leading-relaxed">
-                AINE es una asociacion civil que atiende a ninos y jovenes con
+                AINE es una asociación civil que atiende a niños y jóvenes con
                 neurodivergencias en Monterrey. Muchas de las familias que llegan
-                a nosotros no tienen los recursos para costear evaluaciones,
-                diagnosticos ni terapias especializadas en el sector privado.
+                a nosotros no tienen los recursos para costear evaluaciónes,
+                diagnósticos ni terapias especializadas en el sector privado.
               </p>
               <p className="mt-4 text-body text-lg leading-relaxed">
-                Tu donativo permite que mas ninos reciban la atencion que
-                necesitan, independientemente de su situacion economica. Cada
-                peso se destina directamente a servicios clinicos, materiales
-                terapeuticos y el funcionamiento de nuestro centro.
+                Tu donativo permite que más niños reciban la atención que
+                necesitan, independientemente de su situacion económica. Cada
+                peso se destina directamente a servicios clínicos, materiales
+                terapéuticos y el funcionamiento de nuestro centro.
               </p>
             </div>
 
@@ -134,10 +134,10 @@ export default function DonativosPage() {
               Impacto de tu donativo
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-heading">
-              Cada aportacion cuenta
+              Cada aportación cuenta
             </h2>
             <p className="mt-4 text-lg text-body max-w-2xl mx-auto">
-              Esto es lo que tu donativo puede lograr en la vida de un nino y
+              Esto es lo que tu donativo puede lograr en la vida de un niño y
               su familia.
             </p>
           </div>
@@ -185,7 +185,7 @@ export default function DonativosPage() {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-sm font-semibold text-teal uppercase tracking-widest">
-              Como donar
+              Cómo donar
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-heading">
               Es muy sencillo
@@ -216,7 +216,7 @@ export default function DonativosPage() {
                     Transferencia bancaria
                   </h3>
                   <p className="text-body leading-relaxed">
-                    Contactanos para recibir los datos bancarios de AINE A.C.
+                    Contáctanos para recibir los datos bancarios de AINE A.C.
                     y realizar tu donativo via transferencia o deposito.
                   </p>
                   <a
@@ -259,7 +259,7 @@ export default function DonativosPage() {
                     Coordinar por WhatsApp
                   </h3>
                   <p className="text-body leading-relaxed">
-                    Escribenos directamente para coordinar tu donativo. Estamos
+                    Escríbenos directamente para coordinar tu donativo. Estamos
                     disponibles para resolver cualquier duda.
                   </p>
                   <a
@@ -310,7 +310,7 @@ export default function DonativosPage() {
                     Contactar por email
                   </h3>
                   <p className="text-body leading-relaxed">
-                    Envianos un correo y te compartiremos toda la informacion
+                    Envíanos un correo y te compartiremos toda la información
                     necesaria para realizar tu donativo.
                   </p>
                   <a
@@ -358,17 +358,17 @@ export default function DonativosPage() {
             </svg>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-heading mb-6">
-            Transparencia y confianza
+            Transparencia y confíanza
           </h2>
           <p className="text-lg text-body max-w-2xl mx-auto leading-relaxed mb-4">
             AINE A.C. se compromete al uso etico y transparente de todos los
             donativos recibidos. Cada peso se destina directamente a la
-            atencion de ninos y jovenes con neurodivergencias.
+            atención de niños y jóvenes con neurodivergencias.
           </p>
           <p className="text-body max-w-2xl mx-auto leading-relaxed">
-            Somos una asociacion civil legalmente constituida y operamos bajo
-            los principios de integridad, rendicion de cuentas y compromiso
-            con las familias que confian en nosotros.
+            Somos una asociación civil legalmente constituida y operamos bajo
+            los principios de integridad, rendición de cuentas y compromiso
+            con las familias que confían en nosotros.
           </p>
         </div>
       </section>
@@ -387,8 +387,8 @@ export default function DonativosPage() {
             <span className="text-salmon">Gracias por creer en ellos.</span>
           </h2>
           <p className="text-lg text-body max-w-xl mx-auto mb-10">
-            Contactanos hoy para hacer tu donativo y transformar la vida de
-            un nino y su familia.
+            Contáctanos hoy para hacer tu donativo y transformar la vida de
+            un niño y su familia.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -404,7 +404,7 @@ export default function DonativosPage() {
               href="/quiero-participar"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-heading/20 text-heading font-semibold rounded-full hover:border-salmon hover:text-salmon transition-brand text-base"
             >
-              Contactanos
+              Contáctanos
             </Link>
           </div>
         </div>

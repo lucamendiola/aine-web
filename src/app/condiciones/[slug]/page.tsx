@@ -16,43 +16,43 @@ interface ConditionContent {
 const conditionContent: Record<string, ConditionContent> = {
   tea: {
     paragraphs: [
-      "El Trastorno del Espectro Autista (TEA) es una condicion del neurodesarrollo que se manifiesta en diferencias en la comunicacion social, la interaccion con otros y patrones de comportamiento repetitivos. Cada persona dentro del espectro es unica: algunos ninos pueden tener dificultades significativas con el lenguaje verbal, mientras que otros desarrollan un vocabulario avanzado pero enfrentan retos en la comunicacion no verbal y la comprension de contextos sociales.",
-      "Las fortalezas de los ninos con TEA son notables. Muchos demuestran una memoria excepcional, una atencion al detalle fuera de lo comun, habilidades avanzadas en reconocimiento de patrones y un pensamiento sistematico que les permite sobresalir en areas especificas de interes. Tambien pueden presentar sensibilidades sensoriales, ya sea hipersensibilidad o hiposensibilidad a estimulos como sonidos, texturas o luces.",
-      "La intervencion temprana es fundamental. Cuando se detecta y se acompana desde edades tempranas, los ninos con TEA logran desarrollar herramientas de comunicacion, habilidades sociales y estrategias de autorregulacion que transforman su calidad de vida. En AINE, ofrecemos una evaluacion multidisciplinaria completa y planes de terapia individualizados que respetan la identidad de cada nino.",
+      "El Trastorno del Espectro Autista (TEA) es una condición del neurodesarrollo que se manifiestá en diferencias en la comúnicación social, la interacción con otros y patrones de comportamiento repetitivos. Cada persona dentro del espectro es única: algunos niños pueden tener dificultades significativas con el lenguaje verbal, mientras que otros desarrollan un vocabulario avanzado pero enfrentan retos en la comúnicación no verbal y la comprensión de contextos sociales.",
+      "Las fortalezas de los niños con TEA son notables. Muchos demuestran una memoria excepcional, una atención al detalle fuera de lo comun, habilidades avanzadas en reconocimiento de patrones y un pensamiento sistematico que les permite sobresalir en areas específicas de interes. También pueden presentar sensibilidades sensoriales, ya sea hipersensibilidad o hiposensibilidad a estimulos como sonidos, texturas o luces.",
+      "La intervención temprana es fundamental. Cuando se detecta y se acompana desde edades tempranas, los niños con TEA logran desarrollar herramientas de comúnicación, habilidades sociales y estrategias de autorregulacion que transforman su calidad de vida. En AINE, ofrecemos una evaluación multidisciplinaria completa y planes de terapia individualizados que respetan la identidad de cada nino.",
     ],
     keyAspects: [
-      "Diferencias en comunicacion social e interaccion",
+      "Diferencias en comúnicación social e interacción",
       "Patrones de comportamiento repetitivos o restringidos",
       "Sensibilidades sensoriales (hiper o hiposensibilidad)",
-      "Fortalezas en memoria, atencion al detalle y patrones",
+      "Fortalezas en memoria, atención al detalle y patrones",
       "Espectro amplio: cada caso es unico",
-      "La intervencion temprana mejora significativamente los resultados",
+      "La intervención temprana mejora significativamente los resultados",
     ],
     impact:
-      "El TEA impacta a toda la familia. Los padres a menudo enfrentan incertidumbre, estres y la necesidad de adaptar rutinas y entornos. Los hermanos tambien necesitan comprension y apoyo. En AINE, no solo trabajamos con el nino, sino con toda la familia, ofreciendo orientacion, talleres y un espacio seguro donde cada miembro encuentra las herramientas para construir un entorno que potencie el desarrollo de su hijo.",
+      "El TEA impacta a toda la familia. Los padres a menudo enfrentan incertidumbre, estres y la necesidad de adaptar rutinas y entornos. Los hermanos también necesitan comprensión y apoyo. En AINE, no solo trabajamos con el nino, sino con toda la familia, ofreciendo orientación, talleres y un espacio seguro donde cada miembro encuentra las herramientas para construir un entorno que potencie el desarrollo de su hijo.",
   },
   tdah: {
     paragraphs: [
-      "El Trastorno por Deficit de Atencion e Hiperactividad (TDAH) es una condicion neurobiologica que afecta la capacidad para mantener la atencion, controlar impulsos y regular los niveles de actividad. No es un problema de disciplina ni de voluntad: es una diferencia en el funcionamiento del cerebro que afecta entre el 5% y el 7% de los ninos a nivel mundial.",
-      "El TDAH se presenta en tres subtipos: predominantemente inatento (dificultad para concentrarse y organizarse), predominantemente hiperactivo-impulsivo (necesidad constante de movimiento y dificultad para esperar), y combinado. Muchos ninos son diagnosticados durante la etapa escolar, cuando las demandas academicas y sociales hacen mas evidentes las dificultades.",
-      "En AINE, realizamos una evaluacion integral que incluye observacion clinica, pruebas neuropsicologicas y entrevistas con la familia y la escuela. Nuestro enfoque combina terapia conductual, entrenamiento en habilidades ejecutivas, apoyo a la familia y, cuando es necesario, coordinacion con psiquiatria infantil para un manejo farmacologico responsable.",
+      "El Trastorno por Déficit de Atención e Hiperactividad (TDAH) es una condición neurobiológica que afecta la capacidad para mantener la atención, controlar impulsos y regular los niveles de actividad. No es un problema de disciplina ni de voluntad: es una diferencia en el funcionamiento del cerebro que afecta entre el 5% y el 7% de los niños a nivel mundial.",
+      "El TDAH se presenta en tres subtipos: predominantemente inatento (dificultad para concentrarse y organizarse), predominantemente hiperactivo-impulsivo (necesidad constante de movimiento y dificultad para esperar), y combinado. Muchos niños son diagnosticados durante la etapa escolar, cuando las demandas académicas y sociales hacen más evidentes las dificultades.",
+      "En AINE, realizamos una evaluación integral que incluye observacion clínica, pruebas neuropsicologicas y entrevistas con la familia y la escuela. Nuestro enfoque combina terapia conductual, entrenamiento en habilidades ejecutivas, apoyo a la familia y, cuando es necesario, coordinación con psiquiatría infantil para un manejo farmacológico responsable.",
     ],
     keyAspects: [
-      "Condicion neurobiologica, no un problema de conducta",
+      "Condición neurobiológica, no un problema de conducta",
       "Tres subtipos: inatento, hiperactivo-impulsivo y combinado",
-      "Diagnostico frecuente en edad escolar",
+      "Diagnóstico frecuente en edad escolar",
       "Afecta funciones ejecutivas: organizacion, planificacion, memoria de trabajo",
       "Responde bien a enfoques combinados (terapia + apoyo familiar)",
-      "Muchos ninos con TDAH tienen creatividad y energia excepcionales",
+      "Muchos niños con TDAH tienen creatividad y energia excepcionales",
     ],
     impact:
-      "El TDAH puede generar frustacion tanto en el nino como en su familia. Los conflictos en el hogar, las dificultades escolares y la incomprension social son comunes. Sin embargo, con el acompanamiento adecuado, los ninos con TDAH descubren que su energia, creatividad y forma diferente de pensar son verdaderas fortalezas. En AINE, ayudamos a las familias a entender la condicion, ajustar expectativas y crear estrategias que funcionen en casa y en la escuela.",
+      "El TDAH puede generar frustacion tanto en el niño como en su familia. Los conflictos en el hogar, las dificultades escolares y la incomprensión social son comunes. Sin embargo, con el acompañamiento adecuado, los niños con TDAH descubren que su energia, creatividad y forma diferente de pensar son verdaderas fortalezas. En AINE, ayudamos a las familias a entender la condicion, ajustar expectativas y crear estrategias que funcionen en casa y en la escuela.",
   },
   "altas-capacidades": {
     paragraphs: [
-      "Las Altas Capacidades Intelectuales se refieren a un potencial cognitivo significativamente superior al promedio. Estos ninos no solo son \"inteligentes\": su forma de procesar informacion, su curiosidad intensa y su sensibilidad emocional los hacen diferentes de sus pares. Pueden aprender rapidamente, hacer conexiones inusuales entre ideas y mostrar un interes profundo por temas que van mas alla de lo esperado para su edad.",
-      "Sin embargo, las altas capacidades tambien traen desafios unicos. El aburrimiento en el aula, la sensacion de no encajar, el desarrollo asincronico (donde su intelecto avanza mas rapido que su madurez emocional o social) y la frustacion cuando las cosas no salen perfectas son realidades frecuentes. Sin identificacion ni apoyo, estos ninos pueden presentar bajo rendimiento academico, ansiedad o aislamiento social.",
-      "En AINE, ofrecemos evaluacion especializada para identificar altas capacidades, seguida de estrategias de enriquecimiento academico, apoyo emocional y orientacion a familias y escuelas. Nuestro objetivo es que cada nino con altas capacidades pueda desarrollar su potencial completo sin sacrificar su bienestar emocional.",
+      "Las Altas Capacidades Intelectuales se refieren a un potencial cognitivo significativamente superior al promedio. Estos niños no solo son \"inteligentes\": su forma de procesar información, su curiosidad intensa y su sensibilidad emocional los hacen diferentes de sus pares. Pueden aprender rápidamente, hacer conexiones inusuales entre ideas y mostrar un interes profundo por temás que van más alla de lo esperado para su edad.",
+      "Sin embargo, las altas capacidades también traen desafios unicos. El aburrimiento en el aula, la sensacion de no encajar, el desarrollo asincronico (donde su intelecto avanza más rapido que su madurez emocional o social) y la frustacion cuando las cosas no salen perfectas son realidades frecuentes. Sin identificacion ni apoyo, estos niños pueden presentar bajo rendimiento académico, ansiedad o aislamiento social.",
+      "En AINE, ofrecemos evaluación especializada para identificar altas capacidades, seguida de estrategias de enriquecimiento académico, apoyo emocional y orientación a familias y escuelas. Nuestro objetivo es que cada niño con altas capacidades pueda desarrollar su potencial completo sin sacrificar su bienestar emocional.",
     ],
     keyAspects: [
       "Potencial intelectual significativamente superior al promedio",
@@ -60,112 +60,112 @@ const conditionContent: Record<string, ConditionContent> = {
       "Desarrollo asincronico: intelecto vs. madurez emocional",
       "Riesgo de aburrimiento, aislamiento y bajo rendimiento si no se detecta",
       "Sensibilidad emocional elevada",
-      "Necesidad de estimulacion adecuada y enriquecimiento",
+      "Necesidad de estimulación adecuada y enriquecimiento",
     ],
     impact:
-      "Las familias de ninos con altas capacidades a menudo se sienten incomprendidas. La sociedad tiende a pensar que estos ninos \"no necesitan ayuda\", pero la realidad es diferente. Sin el acompanamiento correcto, pueden desarrollar problemas emocionales y academicos significativos. En AINE, trabajamos con la familia completa para crear un entorno donde el nino se sienta comprendido, estimulado y emocionalmente seguro.",
+      "Las familias de niños con altas capacidades a menudo se sienten incomprendidas. La sociedad tiende a pensar que estos niños \"no necesitan ayuda\", pero la realidad es diferente. Sin el acompañamiento correcto, pueden desarrollar problemás emocionales y académicos significativos. En AINE, trabajamos con la familia completa para crear un entorno donde el niño se sienta comprendido, estimulado y emocionalmente seguro.",
   },
-  "sindrome-de-down": {
+  "síndrome-de-down": {
     paragraphs: [
-      "El Sindrome de Down es una condicion genetica causada por la presencia de una copia extra del cromosoma 21 (trisomia 21). Es la alteracion cromosomica mas comun y afecta aproximadamente a 1 de cada 700 nacimientos. Cada nino con Sindrome de Down es unico: sus capacidades, personalidad y ritmo de desarrollo varian ampliamente.",
-      "La intervencion temprana es uno de los factores mas importantes para maximizar el desarrollo de ninos con Sindrome de Down. Los programas de estimulacion desde los primeros meses de vida ayudan a fortalecer habilidades de comunicacion, motricidad y cognicion. Con el apoyo adecuado, los ninos con Sindrome de Down alcanzan niveles de autonomia, participacion social y calidad de vida que hace decadas eran impensables.",
-      "En AINE, nuestro enfoque transdisciplinario abarca terapia de lenguaje para potenciar la comunicacion, terapia fisica y ocupacional para el desarrollo motor, neuropsicologia para fortalecer habilidades cognitivas y apoyo psicologico para la familia. Cada plan es personalizado segun las necesidades y fortalezas de cada nino.",
+      "El Síndrome de Down es una condición genética causada por la presencia de una copia extra del cromosoma 21 (trisomia 21). Es la alteración cromosómica más comun y afecta aproximadamente a 1 de cada 700 nacimientos. Cada niño con Síndrome de Down es unico: sus capacidades, personalidad y ritmo de desarrollo varian ampliamente.",
+      "La intervención temprana es uno de los factores más importantes para maximizar el desarrollo de niños con Síndrome de Down. Los programás de estimulación desde los primeros meses de vida ayudan a fortalecer habilidades de comúnicación, motricidad y cognicion. Con el apoyo adecuado, los niños con Síndrome de Down alcanzan niveles de autonomía, participacion social y calidad de vida que hace decadas eran impensables.",
+      "En AINE, nuestro enfoque transdisciplinario abarca terapia de lenguaje para potenciar la comúnicación, terapia física y ocupacional para el desarrollo motor, neuropsicología para fortalecer habilidades cognitivas y apoyo psicologico para la familia. Cada plan es personalizado segun las necesidades y fortalezas de cada nino.",
     ],
     keyAspects: [
-      "Condicion genetica: trisomia del cromosoma 21",
-      "Cada nino tiene un perfil unico de desarrollo",
-      "La estimulacion temprana maximiza autonomia y habilidades",
-      "Enfoque en comunicacion, motricidad y cognicion",
-      "Potencial real de inclusion social y academica",
-      "Acompanamiento a la familia desde el diagnostico",
+      "Condición genética: trisomia del cromosoma 21",
+      "Cada niño tiene un perfil unico de desarrollo",
+      "La estimulación temprana maximiza autonomía y habilidades",
+      "Enfoque en comúnicación, motricidad y cognicion",
+      "Potencial real de inclusión social y académica",
+      "Acompañamiento a la familia desde el diagnóstico",
     ],
     impact:
-      "Recibir el diagnostico de Sindrome de Down transforma la vida de una familia. Las preguntas, los miedos y la incertidumbre son naturales. En AINE, acompanamos a las familias desde el primer momento, ofreciendo informacion clara, apoyo emocional y un plan de accion concreto. Nuestro objetivo es que cada familia vea las posibilidades reales de su hijo y cuente con las herramientas para apoyar su desarrollo al maximo.",
+      "Recibir el diagnóstico de Síndrome de Down transforma la vida de una familia. Las preguntas, los miedos y la incertidumbre son naturales. En AINE, acompañamos a las familias desde el primer momento, ofreciendo información clara, apoyo emocional y un plan de accion concreto. Nuestro objetivo es que cada familia vea las posibilidades reales de su hijo y cuente con las herramientas para apoyar su desarrollo al maximo.",
   },
   "retrasos-en-el-desarrollo": {
     paragraphs: [
-      "Los retrasos en el desarrollo ocurren cuando un nino no alcanza los hitos del desarrollo (como caminar, hablar o interactuar socialmente) en los tiempos esperados. Estos retrasos pueden afectar una o varias areas: motricidad, lenguaje, cognicion, habilidades sociales o habilidades de la vida diaria.",
-      "Las causas pueden ser diversas: factores geneticos, complicaciones durante el embarazo o parto, condiciones neurologicas, factores ambientales o causas que aun no se han identificado. Lo mas importante es que la deteccion temprana y la intervencion oportuna son fundamentales. Cuanto antes se identifique un retraso, mayores son las posibilidades de que el nino alcance su maximo potencial.",
-      "En AINE, realizamos evaluaciones integrales para determinar el tipo y grado de retraso, identificar las causas subyacentes cuando es posible y crear programas de intervencion personalizados. Nuestros programas de estimulacion temprana combinan terapias especializadas con orientacion a la familia para crear un entorno que favorezca el desarrollo.",
+      "Los retrasos en el desarrollo ocurren cuando un niño no alcanza los hitos del desarrollo (como caminar, hablar o interactuar socialmente) en los tiempos esperados. Estos retrasos pueden afectar una o varias areas: motricidad, lenguaje, cognicion, habilidades sociales o habilidades de la vida diaria.",
+      "Las causas pueden ser diversas: factores genéticos, complicaciones durante el embarazo o parto, condiciones neurológicas, factores ambientales o causas que aun no se han identificado. Lo más importante es que la deteccion temprana y la intervención oportuna son fundamentales. Cuanto antes se identifique un retraso, mayores son las posibilidades de que el niño alcance su máximo potencial.",
+      "En AINE, realizamos evaluaciónes integrales para determinar el tipo y grado de retraso, identificar las causas subyacentes cuando es posible y crear programás de intervención personalizados. Nuestros programás de estimulación temprana combinan terapias especializadas con orientación a la familia para crear un entorno que favorezca el desarrollo.",
     ],
     keyAspects: [
       "No alcanzar hitos del desarrollo en los tiempos esperados",
       "Puede afectar motricidad, lenguaje, cognicion o habilidades sociales",
-      "Causas diversas: geneticas, neurologicas, ambientales",
+      "Causas diversas: genéticas, neurológicas, ambientales",
       "La deteccion temprana es clave para mejores resultados",
-      "Programas de estimulacion temprana personalizados",
-      "Evaluacion integral para identificar causas y areas de intervencion",
+      "Programás de estimulación temprana personalizados",
+      "Evaluación integral para identificar causas y areas de intervención",
     ],
     impact:
-      "Los padres suelen ser los primeros en notar que algo es diferente en el desarrollo de su hijo. Esa intuicion es valiosa y merece atencion profesional. En AINE, validamos las preocupaciones de las familias, realizamos evaluaciones completas y ofrecemos respuestas claras. Saber que hacer y por donde empezar reduce la angustia y permite a las familias enfocarse en lo que realmente importa: apoyar a su hijo.",
+      "Los padres suelen ser los primeros en notar que algo es diferente en el desarrollo de su hijo. Esa intuicion es valiosa y merece atención profesional. En AINE, validamos las preocupaciones de las familias, realizamos evaluaciónes completas y ofrecemos respuestas claras. Saber que hacer y por donde empezar reduce la angustia y permite a las familias enfocarse en lo que realmente importa: apoyar a su hijo.",
   },
   "trastornos-aprendizaje": {
     paragraphs: [
-      "Los trastornos del aprendizaje incluyen la dislexia (dificultad con la lectura), la disgrafia (dificultad con la escritura) y la discalculia (dificultad con las matematicas). Estas condiciones no estan relacionadas con la inteligencia: los ninos con trastornos del aprendizaje suelen tener una capacidad intelectual normal o superior, pero procesan cierto tipo de informacion de manera diferente.",
-      "Estos trastornos se hacen evidentes cuando el nino comienza la etapa escolar y enfrenta demandas academicas formales. Sin diagnostico, los ninos pueden ser etiquetados como \"flojos\" o \"desobedientes\", lo que afecta profundamente su autoestima y motivacion. El diagnostico adecuado no solo explica las dificultades, sino que abre la puerta a estrategias especificas que permiten al nino aprender de la forma que funciona para el.",
-      "En AINE, evaluamos las habilidades cognitivas y academicas del nino para determinar el tipo de trastorno del aprendizaje y su impacto. Trabajamos con psicopedagogia y neuropsicologia para crear estrategias de ensenanza personalizadas, y orientamos a las familias y escuelas sobre las adaptaciones necesarias para que el nino pueda tener exito academico.",
+      "Los trastornos del aprendizaje incluyen la dislexia (dificultad con la lectura), la disgrafia (dificultad con la escritura) y la discalculia (dificultad con las matematicas). Estas condiciones no están relacionadas con la inteligencia: los niños con trastornos del aprendizaje suelen tener una capacidad intelectual normal o superior, pero procesan cierto tipo de información de manera diferente.",
+      "Estos trastornos se hacen evidentes cuando el niño comienza la etapa escolar y enfrenta demandas académicas formales. Sin diagnóstico, los niños pueden ser etiquetados como \"flojos\" o \"desobedientes\", lo que afecta profundamente su autoestima y motivacion. El diagnóstico adecuado no solo explica las dificultades, sino que abre la puerta a estrategias específicas que permiten al niño aprender de la forma que funciona para el.",
+      "En AINE, evaluamos las habilidades cognitivas y académicas del niño para determinar el tipo de trastorno del aprendizaje y su impacto. Trabajamos con psicopedagogía y neuropsicología para crear estrategias de enseñanza personalizadas, y orientamos a las familias y escuelas sobre las adaptaciones necesarias para que el niño pueda tener exito académico.",
     ],
     keyAspects: [
       "Incluyen dislexia, disgrafia y discalculia",
-      "No estan relacionados con el nivel de inteligencia",
-      "Se manifiestan con mayor claridad en la etapa escolar",
-      "El diagnostico temprano previene danos a la autoestima",
-      "Estrategias personalizadas de ensenanza y aprendizaje",
-      "Coordinacion con la escuela para adaptaciones necesarias",
+      "No están relacionados con el nivel de inteligencia",
+      "Se manifiestán con mayor claridad en la etapa escolar",
+      "El diagnóstico temprano previene danos a la autoestima",
+      "Estrategias personalizadas de enseñanza y aprendizaje",
+      "Coordinación con la escuela para adaptaciones necesarias",
     ],
     impact:
-      "Un trastorno del aprendizaje no diagnosticado puede hacer que un nino brillante se sienta incapaz. La frustacion diaria en la escuela, la comparacion con companeros y las dificultades con las tareas afectan no solo el rendimiento academico, sino la relacion del nino con el aprendizaje en general. En AINE, ayudamos a las familias a entender que su hijo no tiene un problema de esfuerzo, sino una forma diferente de procesar informacion, y les damos las herramientas para apoyarlo.",
+      "Un trastorno del aprendizaje no diagnosticado puede hacer que un niño brillante se sienta incapaz. La frustacion diaria en la escuela, la comparacion con compañeros y las dificultades con las tareas afectan no solo el rendimiento académico, sino la relacion del niño con el aprendizaje en general. En AINE, ayudamos a las familias a entender que su hijo no tiene un problema de esfuerzo, sino una forma diferente de procesar información, y les damos las herramientas para apoyarlo.",
   },
   "trastorno-del-lenguaje": {
     paragraphs: [
-      "El trastorno del lenguaje afecta la capacidad de un nino para comprender o expresarse a traves del habla. Puede manifestarse como retrasos en las primeras palabras, un vocabulario limitado para su edad, dificultad para formar oraciones complejas o problemas para seguir instrucciones de varios pasos. Algunos ninos tienen dificultades tanto expresivas como receptivas.",
-      "El lenguaje es la herramienta fundamental para la comunicacion, el aprendizaje y la participacion social. Cuando un nino tiene dificultades en esta area, el impacto se extiende a su rendimiento academico, sus relaciones con pares y su autoestima. Los ninos que no pueden expresar lo que sienten o necesitan a menudo muestran frustacion a traves de conductas desafiantes.",
-      "En AINE, nuestros terapeutas de lenguaje realizan una evaluacion completa de las habilidades comunicativas del nino y disenan programas de intervencion que abordan tanto la expresion como la comprension. La terapia de lenguaje, combinada con estrategias para el hogar y la escuela, abre puertas a una comunicacion efectiva y una participacion social plena.",
+      "El trastorno del lenguaje afecta la capacidad de un niño para comprender o expresarse a traves del habla. Puede manifestarse como retrasos en las primeras palabras, un vocabulario limitado para su edad, dificultad para formar oraciones complejas o problemás para seguir instrucciones de varios pasos. Algunos niños tienen dificultades tanto expresivas como receptivas.",
+      "El lenguaje es la herramienta fundamental para la comúnicación, el aprendizaje y la participacion social. Cuando un niño tiene dificultades en está area, el impacto se extiende a su rendimiento académico, sus relaciones con pares y su autoestima. Los niños que no pueden expresar lo que sienten o necesitan a menudo muestran frustacion a traves de conductas desafiantes.",
+      "En AINE, nuestros terapeutas de lenguaje realizan una evaluación completa de las habilidades comúnicativas del niño y diseñan programás de intervención que abordan tanto la expresión como la comprensión. La terapia de lenguaje, combinada con estrategias para el hogar y la escuela, abre puertas a una comúnicación efectiva y una participacion social plena.",
     ],
     keyAspects: [
-      "Afecta comprension, expresion o ambas",
+      "Afecta comprensión, expresión o ambas",
       "Puede incluir retrasos en primeras palabras y vocabulario limitado",
       "Dificultad con oraciones complejas e instrucciones de varios pasos",
-      "Impacta rendimiento academico y relaciones sociales",
+      "Impacta rendimiento académico y relaciones sociales",
       "La terapia de lenguaje especializada produce mejoras significativas",
       "Estrategias complementarias para el hogar y la escuela",
     ],
     impact:
-      "Las dificultades del lenguaje pueden aislar a un nino de su entorno. No poder pedir ayuda, participar en conversaciones o expresar emociones genera frustacion y, en muchos casos, problemas de conducta que enmascaran la dificultad real. En AINE, trabajamos para que cada nino encuentre su voz, ya sea a traves del habla, de estrategias de comunicacion alternativa o de ambas, y para que la familia cuente con las herramientas para facilitar la comunicacion en casa.",
+      "Las dificultades del lenguaje pueden aislar a un niño de su entorno. No poder pedir ayuda, participar en conversaciones o expresar emociones genera frustacion y, en muchos casos, problemás de conducta que enmascaran la dificultad real. En AINE, trabajamos para que cada niño encuentre su voz, ya sea a traves del habla, de estrategias de comúnicación alternativa o de ambas, y para que la familia cuente con las herramientas para facilitar la comúnicación en casa.",
   },
   "tics-tourette": {
     paragraphs: [
-      "Los tics son movimientos o vocalizaciones involuntarios, subitos y repetitivos. Pueden ser simples (parpadeo excesivo, carraspeo) o complejos (gestos faciales elaborados, repeticion de palabras). El Sindrome de Tourette se diagnostica cuando una persona presenta tics motores y vocales durante mas de un ano. Ambas condiciones suelen aparecer en la infancia, tipicamente entre los 5 y los 10 anos.",
-      "Los tics tienden a fluctuar en frecuencia e intensidad. El estres, la ansiedad, la fatiga y la emocion intensa pueden aumentar su aparicion, mientras que la concentracion en actividades de interes suele reducirlos. Es comun que los tics coexistan con otras condiciones como TDAH, ansiedad o trastorno obsesivo-compulsivo, lo que hace importante una evaluacion integral.",
-      "En AINE, ofrecemos un abordaje comprensivo que incluye evaluacion neurologica, apoyo psicologico y estrategias conductuales como la terapia de reversion de habitos. Trabajamos con el nino para que comprenda su condicion sin sentirse definido por ella, y con la familia y la escuela para crear un entorno de comprension y aceptacion.",
+      "Los tics son movimientos o vocalizaciones involuntarios, subitos y repetitivos. Pueden ser simples (parpadeo excesivo, carraspeo) o complejos (gestos faciales elaborados, repeticion de palabras). El Síndrome de Tourette se diagnostica cuando una persona presenta tics motores y vocales durante más de un ano. Ambas condiciones suelen aparecer en la infancia, típicamente entre los 5 y los 10 años.",
+      "Los tics tienden a fluctuar en frecuencia e intensidad. El estres, la ansiedad, la fatiga y la emocion intensa pueden aumentar su aparicion, mientras que la concentracion en actividades de interes suele reducirlos. Es comun que los tics coexistan con otras condiciones como TDAH, ansiedad o trastorno obsesivo-compulsivo, lo que hace importante una evaluación integral.",
+      "En AINE, ofrecemos un abordaje comprensivo que incluye evaluación neurológica, apoyo psicologico y estrategias conductuales como la terapia de reversion de habitos. Trabajamos con el niño para que comprenda su condición sin sentirse definido por ella, y con la familia y la escuela para crear un entorno de comprensión y aceptacion.",
     ],
     keyAspects: [
       "Movimientos o vocalizaciones involuntarios y repetitivos",
       "Tics simples y complejos; motores y vocales",
-      "El Sindrome de Tourette incluye ambos tipos por mas de un ano",
+      "El Síndrome de Tourette incluye ambos tipos por más de un ano",
       "Fluctuan con el estres, la fatiga y las emociones",
       "Frecuente coexistencia con TDAH, ansiedad u TOC",
       "Estrategias conductuales efectivas para el manejo",
     ],
     impact:
-      "Los tics pueden generar vergenza, burlas y aislamiento social en los ninos que los presentan. Las familias a menudo enfrentan incomprension por parte de escuelas y entornos sociales. En AINE, educamos a las familias y a los entornos del nino sobre la naturaleza de los tics, proporcionamos estrategias para manejar situaciones sociales y ofrecemos apoyo emocional para que el nino construya una autoestima solida a pesar de los desafios.",
+      "Los tics pueden generar vergenza, burlas y aislamiento social en los niños que los presentan. Las familias a menudo enfrentan incomprensión por parte de escuelas y entornos sociales. En AINE, educamos a las familias y a los entornos del niño sobre la naturaleza de los tics, proporcionamos estrategias para manejar situaciones sociales y ofrecemos apoyo emocional para que el niño construya una autoestima solida a pesar de los desafios.",
   },
   "problemas-motores": {
     paragraphs: [
-      "Los problemas motores y de coordinacion abarcan dificultades en la motricidad gruesa (caminar, correr, saltar, equilibrio), la motricidad fina (escribir, abotonarse la ropa, usar tijeras) o ambas. La dispraxia, tambien conocida como trastorno del desarrollo de la coordinacion, es una de las condiciones mas comunes en esta categoria.",
-      "Estos problemas pueden afectar la vida diaria del nino de maneras que no siempre son evidentes. Dificultades para vestirse, comer con cubiertos, participar en actividades deportivas o escribir de manera legible pueden generar dependencia, frustacion y evitacion de actividades. En el contexto escolar, los problemas motores finos pueden impactar directamente el rendimiento academico.",
-      "En AINE, nuestros terapeutas fisicos y ocupacionales realizan una evaluacion detallada de las habilidades motoras del nino y crean programas de intervencion que mejoran la coordinacion, el equilibrio, la fuerza y la destreza manual. El objetivo es que cada nino alcance el mayor nivel posible de independencia en sus actividades cotidianas y participe plenamente en la vida escolar y social.",
+      "Los problemás motores y de coordinación abarcan dificultades en la motricidad gruesa (caminar, correr, saltar, equilibrio), la motricidad fina (escribir, abotonarse la ropa, usar tijeras) o ambas. La dispraxia, también conocida como trastorno del desarrollo de la coordinación, es una de las condiciones más comunes en está categoria.",
+      "Estos problemás pueden afectar la vida diaria del niño de maneras que no siempre son evidentes. Dificultades para vestirse, comer con cubiertos, participar en actividades deportivas o escribir de manera legible pueden generar dependencia, frustacion y evitacion de actividades. En el contexto escolar, los problemás motores finos pueden impactar directamente el rendimiento académico.",
+      "En AINE, nuestros terapeutas fisicos y ocupacionales realizan una evaluación detallada de las habilidades motoras del niño y crean programás de intervención que mejoran la coordinación, el equilibrio, la fuerza y la destreza manual. El objetivo es que cada niño alcance el mayor nivel posible de independencia en sus actividades cotidianas y participe plenamente en la vida escolar y social.",
     ],
     keyAspects: [
       "Dificultades en motricidad gruesa, fina o ambas",
       "Incluye condiciones como la dispraxia",
       "Afecta actividades cotidianas: vestirse, escribir, comer",
       "Impacto en participacion deportiva y escolar",
-      "Terapia fisica y ocupacional personalizada",
+      "Terapia física y ocupacional personalizada",
       "Enfoque en independencia y participacion plena",
     ],
     impact:
-      "Los problemas motores pueden hacer que actividades que para otros ninos son naturales se conviertan en retos diarios. La dificultad para participar en juegos, deportes y actividades escolares puede afectar la confianza del nino y su relacion con pares. En AINE, trabajamos para que cada nino desarrolle las habilidades que necesita para sentirse capaz y participar activamente en su vida cotidiana, y para que las familias tengan estrategias practicas para apoyar el desarrollo motor en casa.",
+      "Los problemás motores pueden hacer que actividades que para otros niños son naturales se conviertan en retos diarios. La dificultad para participar en juegos, deportes y actividades escolares puede afectar la confíanza del niño y su relacion con pares. En AINE, trabajamos para que cada niño desarrolle las habilidades que necesita para sentirse capaz y participar activamente en su vida cotidiana, y para que las familias tengan estrategias practicas para apoyar el desarrollo motor en casa.",
   },
 };
 
@@ -190,7 +190,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const condition = conditions.find((c) => c.slug === slug);
 
   if (!condition) {
-    return { title: "Condicion no encontrada" };
+    return { title: "Condición no encontrada" };
   }
 
   return {
@@ -311,7 +311,7 @@ export default async function CondicionDetailPage({ params }: Props) {
                     />
                   </div>
                   <h2 className="text-2xl font-bold text-heading">
-                    Que es {condition.shortName.toLowerCase().startsWith("el") ? "" : condition.shortName.match(/^(Tics|Problemas|Altas|Retrasos)/) ? "" : "el "}
+                    Qué es {condition.shortName.toLowerCase().startsWith("el") ? "" : condition.shortName.match(/^(Tics|Problemas|Altas|Retrasos)/) ? "" : "el "}
                     {condition.shortName}
                   </h2>
                 </div>
@@ -422,8 +422,8 @@ export default async function CondicionDetailPage({ params }: Props) {
               </h2>
               <p className="text-white/85 text-lg max-w-lg mx-auto mb-8">
                 Si sospechas que tu hijo puede tener{" "}
-                {condition.shortName.toLowerCase()}, nuestro equipo esta listo
-                para orientarte y acompanarte.
+                {condition.shortName.toLowerCase()}, nuestro equipo está listo
+                para orientarte y acompañarte.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -431,7 +431,7 @@ export default async function CondicionDetailPage({ params }: Props) {
                   href="/quiero-participar"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-salmon font-bold rounded-full hover:bg-cream transition-brand shadow-lg text-base"
                 >
-                  Agenda una valoracion
+                  Agenda una valoración
                   <svg
                     className="w-5 h-5"
                     fill="none"

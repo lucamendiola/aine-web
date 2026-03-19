@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Quiero Participar",
   description:
-    "Contacta a AINE para agendar una valoracion, conocer nuestros servicios o participar como voluntario. Estamos en Monterrey, NL.",
+    "Contacta a AINE para agendar una valoración, conocer nuestros servicios o participar como voluntario. Estamos en Monterrey, NL.",
   openGraph: {
     title: "Quiero Participar | AINE",
     description:
-      "Contacta a AINE para agendar una valoracion o conocer nuestros servicios de atencion a neurodivergencias en Monterrey.",
+      "Contacta a AINE para agendar una valoración o conocer nuestros servicios de atención a neurodivergencias en Monterrey.",
     url: "https://aine.mx/quiero-participar",
   },
 };
@@ -32,7 +32,7 @@ export default function QuieroParticiparPage() {
             Se parte de <span className="text-salmon">AINE!</span>
           </h1>
           <p className="mt-6 text-lg text-body max-w-2xl mx-auto">
-            Ya sea que busques atencion para tu hijo, quieras colaborar con
+            Ya sea que busques atención para tu hijo, quieras colaborar con
             nosotros o tengas alguna pregunta, estamos aqui para ayudarte.
           </p>
         </div>
@@ -46,7 +46,7 @@ export default function QuieroParticiparPage() {
             <div className="lg:col-span-2">
               <div className="bg-white rounded-3xl p-8 sm:p-10 shadow-lg border border-gray/5">
                 <h2 className="text-2xl font-extrabold text-heading mb-2">
-                  Envianos un mensaje
+                  Envíanos un mensaje
                 </h2>
                 <p className="text-body mb-8">
                   Completa el formulario y nos pondremos en contacto contigo lo
@@ -93,41 +93,41 @@ export default function QuieroParticiparPage() {
                   </div>
 
                   <div className="grid sm:grid-cols-2 gap-6">
-                    {/* Telefono */}
+                    {/* Teléfono */}
                     <div>
                       <label
-                        htmlFor="telefono"
+                        htmlFor="teléfono"
                         className="block text-sm font-semibold text-heading mb-2"
                       >
-                        Telefono <span className="text-salmon">*</span>
+                        Teléfono <span className="text-salmon">*</span>
                       </label>
                       <input
                         type="tel"
-                        id="telefono"
-                        name="telefono"
+                        id="teléfono"
+                        name="teléfono"
                         required
                         placeholder="+52 81 1234 5678"
                         className="w-full px-4 py-3 bg-cream-light border border-gray/10 rounded-xl text-heading placeholder:text-body-light focus:outline-none focus:ring-2 focus:ring-salmon/30 focus:border-salmon transition-brand"
                       />
                     </div>
 
-                    {/* Ubicacion */}
+                    {/* Ubicación */}
                     <div>
                       <label
-                        htmlFor="ubicacion"
+                        htmlFor="ubicación"
                         className="block text-sm font-semibold text-heading mb-2"
                       >
-                        Ubicacion <span className="text-salmon">*</span>
+                        Ubicación <span className="text-salmon">*</span>
                       </label>
                       <select
-                        id="ubicacion"
-                        name="ubicacion"
+                        id="ubicación"
+                        name="ubicación"
                         required
                         defaultValue=""
                         className="w-full px-4 py-3 bg-cream-light border border-gray/10 rounded-xl text-heading focus:outline-none focus:ring-2 focus:ring-salmon/30 focus:border-salmon transition-brand"
                       >
                         <option value="" disabled>
-                          Selecciona tu ubicacion
+                          Selecciona tu ubicación
                         </option>
                         <option value="monterrey">Monterrey</option>
                         <option value="san-pedro">San Pedro</option>
@@ -139,13 +139,13 @@ export default function QuieroParticiparPage() {
                     </div>
                   </div>
 
-                  {/* Como te enteraste */}
+                  {/* Cómo te enteraste */}
                   <div>
                     <label
                       htmlFor="referencia"
                       className="block text-sm font-semibold text-heading mb-2"
                     >
-                      Como te enteraste de nosotros?
+                      Cómo te enteraste de nosotros?
                     </label>
                     <select
                       id="referencia"
@@ -154,7 +154,7 @@ export default function QuieroParticiparPage() {
                       className="w-full px-4 py-3 bg-cream-light border border-gray/10 rounded-xl text-heading focus:outline-none focus:ring-2 focus:ring-salmon/30 focus:border-salmon transition-brand"
                     >
                       <option value="" disabled>
-                        Selecciona una opcion
+                        Selecciona una opción
                       </option>
                       <option value="redes-sociales">Redes sociales</option>
                       <option value="google">Google</option>
@@ -172,14 +172,14 @@ export default function QuieroParticiparPage() {
                     >
                       Mensaje{" "}
                       <span className="text-body-light font-normal">
-                        (opcional)
+                        (opciónal)
                       </span>
                     </label>
                     <textarea
                       id="mensaje"
                       name="mensaje"
                       rows={4}
-                      placeholder="Cuentanos como podemos ayudarte..."
+                      placeholder="Cuentanos cómo podemos ayudarte..."
                       className="w-full px-4 py-3 bg-cream-light border border-gray/10 rounded-xl text-heading placeholder:text-body-light focus:outline-none focus:ring-2 focus:ring-salmon/30 focus:border-salmon transition-brand resize-none"
                     />
                   </div>
@@ -257,7 +257,7 @@ export default function QuieroParticiparPage() {
                     />
                   </svg>
                 </div>
-                <h3 className="font-bold text-heading mb-2">Direccion</h3>
+                <h3 className="font-bold text-heading mb-2">Dirección</h3>
                 <p className="text-body text-sm leading-relaxed">
                   Amatista 107, Col. Pedregal del Valle,
                   <br />
@@ -308,7 +308,7 @@ export default function QuieroParticiparPage() {
                     />
                   </svg>
                 </div>
-                <h3 className="font-bold text-heading mb-2">Telefono</h3>
+                <h3 className="font-bold text-heading mb-2">Teléfono</h3>
                 <a
                   href="tel:+528117841969"
                   className="text-body font-medium text-sm"
@@ -331,12 +331,12 @@ export default function QuieroParticiparPage() {
                 >
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                 </svg>
-                Escribenos por WhatsApp
+                Escríbenos por WhatsApp
               </a>
 
               {/* Social Links */}
               <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray/5">
-                <h3 className="font-bold text-heading mb-4">Siguenos</h3>
+                <h3 className="font-bold text-heading mb-4">Síguenos</h3>
                 <div className="flex gap-4">
                   {/* Facebook */}
                   <a
