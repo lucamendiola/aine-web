@@ -3,7 +3,7 @@ import { conditions } from "@/lib/conditions";
 import { AineIcon } from "@/components/AineLogo";
 
 const impactStats = [
-  { number: "500+", label: "Familias acompañadas" },
+  { number: "+100", label: "Familias acompañadas" },
   { number: "15", label: "Servicios especializados" },
   { number: "9", label: "Condiciones atendidas" },
   { number: "6", label: "Profesionales de salud" },
@@ -126,7 +126,7 @@ export default function HomePage() {
                 {/* Content inside circle */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center text-white p-12 animate-fade-in-up" style={{ animationDelay: "0.4s", opacity: 0 }}>
-                    <p className="text-6xl font-extrabold mb-2">500+</p>
+                    <p className="text-6xl font-extrabold mb-2">+100</p>
                     <p className="text-lg font-medium opacity-90">
                       familias acompañadas
                     </p>
