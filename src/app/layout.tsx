@@ -12,6 +12,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://aine.mx"),
   title: {
     default: "AINE | Una nueva luz, un mejor futuro",
     template: "%s | AINE",
@@ -36,6 +37,21 @@ export const metadata: Metadata = {
     siteName: "AINE",
     locale: "es_MX",
     type: "website",
+    images: [
+      {
+        url: "/images/og-aine.png",
+        width: 1200,
+        height: 630,
+        alt: "AINE — Una nueva luz, un mejor futuro",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AINE | Una nueva luz, un mejor futuro",
+    description:
+      "Asociación civil que diagnostica y apoya a niños y jóvenes con neurodivergencias en Monterrey.",
+    images: ["/images/og-aine.png"],
   },
 };
 
