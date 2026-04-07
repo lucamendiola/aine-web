@@ -170,7 +170,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-white/40 text-xs">
-            &copy; {new Date().getFullYear()} AINE A.C. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Servicios Terapéuticos de Apoyo y Rehabilitación, A.C. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
             {footerLinks.legal.map((link) => (

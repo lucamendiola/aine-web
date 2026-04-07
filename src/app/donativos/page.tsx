@@ -216,7 +216,7 @@ export default function DonativosPage() {
                     Transferencia bancaria
                   </h3>
                   <p className="text-body leading-relaxed">
-                    Contáctanos para recibir los datos bancarios de AINE A.C.
+                    Contáctanos para recibir los datos bancarios de Servicios Terapéuticos de Apoyo y Rehabilitación, A.C.
                     y realizar tu donativo via transferencia o deposito.
                   </p>
                   <a
