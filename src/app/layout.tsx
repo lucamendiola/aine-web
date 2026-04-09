@@ -55,6 +55,29 @@ export const metadata: Metadata = {
   },
 };
 
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  name: "AINE",
+  alternateName: "Servicios Terapéuticos de Apoyo y Rehabilitación, A.C.",
+  url: "https://aine.mx",
+  telephone: "+528117841969",
+  email: "hola@aine.mx",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Amatista 107, Col. Pedregal del Valle",
+    addressLocality: "Monterrey",
+    addressRegion: "Nuevo León",
+    addressCountry: "MX",
+  },
+  description:
+    "Asociación civil que diagnostica y apoya a niños y jóvenes con neurodivergencias mediante una red integral y transdisciplinaria de profesionales de salud.",
+  sameAs: [
+    "https://www.instagram.com/ainemxoficial/",
+    "https://www.youtube.com/@AINEMX",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -63,6 +86,10 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${nunito.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

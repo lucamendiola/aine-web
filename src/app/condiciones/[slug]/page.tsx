@@ -222,8 +222,33 @@ export default async function CondicionDetailPage({ params }: Props) {
   const nextCondition =
     currentIndex < conditions.length - 1 ? conditions[currentIndex + 1] : null;
 
+  const conditionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "MedicalCondition",
+    name: condition.name,
+    alternateName: condition.shortName,
+    description: condition.description,
+    ...(content && {
+      signOrSymptom: content.keyAspects.map((aspect) => ({
+        "@type": "MedicalSignOrSymptom",
+        name: aspect,
+      })),
+    }),
+    possibleTreatment: {
+      "@type": "MedicalTherapy",
+      name: "Intervención transdisciplinaria en AINE",
+      description:
+        "Plan de intervención personalizado con equipo transdisciplinario de profesionales de salud.",
+    },
+    url: `https://aine.mx/condiciones/${condition.slug}`,
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(conditionJsonLd) }}
+      />
       {/* Hero */}
       <section className="relative pt-32 pb-16 overflow-hidden">
         {/* Background elements */}
