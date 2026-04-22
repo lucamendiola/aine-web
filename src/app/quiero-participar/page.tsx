@@ -204,7 +204,7 @@ export default function QuieroParticiparPage() {
                       >
                         Aviso de Privacidad
                       </Link>{" "}
-                      de AINE A.C.
+                      de AINE.
                     </label>
                   </div>
 

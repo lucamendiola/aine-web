@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Aviso de Privacidad",
   description:
-    "Aviso de privacidad de AINE A.C. Conoce como recopilamos, usamos y protegemos tus datos personales.",
+    "Aviso de privacidad de AINE. Conoce como recopilamos, usamos y protegemos tus datos personales.",
   openGraph: {
     title: "Aviso de Privacidad | AINE",
     description:
-      "Aviso de privacidad de AINE A.C. conforme a la Ley Federal de Protección de Datos Personales.",
+      "Aviso de privacidad de AINE conforme a la Ley Federal de Protección de Datos Personales.",
     url: "https://aine.mx/privacidad",
   },
 };
@@ -45,8 +45,7 @@ export default function PrivacidadPage() {
                 1. Responsable del tratamiento
               </h2>
               <p className="text-body leading-relaxed">
-                <strong className="text-heading">AINE A.C.</strong> (en adelante
-                &ldquo;AINE&rdquo;), con domicilio en Amatista 107, Col.
+                <strong className="text-heading">AINE</strong>, con domicilio en Amatista 107, Col.
                 Pedregal del Valle, C.P. 66280, Monterrey, Nuevo Leon, Mexico,
                 es la responsable del tratamiento de tus datos personales
                 conforme a la Ley Federal de Protección de Datos Personales en

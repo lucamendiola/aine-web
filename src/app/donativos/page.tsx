@@ -361,7 +361,7 @@ export default function DonativosPage() {
             Transparencia y confíanza
           </h2>
           <p className="text-lg text-body max-w-2xl mx-auto leading-relaxed mb-4">
-            AINE A.C. se compromete al uso etico y transparente de todos los
+            AINE se compromete al uso etico y transparente de todos los
             donativos recibidos. Cada peso se destina directamente a la
             atención de niños y jóvenes con neurodivergencias.
           </p>
